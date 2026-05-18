@@ -10,14 +10,14 @@ find_position = { fg = "#aeaeae", bg = "reset", italic = true }
 marker_copied   = { fg = "#5bb661", bg = "#5bb661" }
 marker_cut      = { fg = "#ed756e", bg = "#ed756e" }
 marker_marked   = { fg = "#00baaa", bg = "#00baaa" }
-marker_selected = { fg = "#3ba6f5", bg = "#3ba6f5" }
+marker_selected = { fg = "#222222", bg = "#222222" }
 
 count_copied   = { fg = "#161616", bg = "#5bb661" }
 count_cut      = { fg = "#161616", bg = "#ed756e" }
-count_selected = { fg = "#161616", bg = "#3ba6f5" }
+count_selected = { fg = "#cecece", bg = "#222222" }
 
 border_symbol = "│"
-border_style  = { fg = "#3a3a3a" }
+border_style  = { fg = "#2e2e2e" }
 
 [tabs]
 active   = { fg = "#eeeeee", bg = "#2e2e2e", bold = true }
@@ -35,7 +35,7 @@ unset_alt  = { fg = "#ed756e", bg = "#222222" }
 
 [indicator]
 parent  = { fg = "#cecece", bg = "#222222" }
-current = { fg = "#161616", bg = "#3ba6f5" }
+current = { fg = "#eeeeee", bg = "#2e2e2e" }
 preview = { fg = "#cecece", bg = "#222222" }
 
 [status]
@@ -45,7 +45,7 @@ progress_label  = { fg = "#eeeeee", bold = true }
 progress_normal = { fg = "#5bb661", bg = "#222222" }
 progress_error  = { fg = "#c39900", bg = "#ed756e" }
 
-perm_type  = { fg = "#3ba6f5" }
+perm_type  = { fg = "#808080" }
 perm_read  = { fg = "#c39900" }
 perm_write = { fg = "#ed756e" }
 perm_exec  = { fg = "#5bb661" }
@@ -61,43 +61,43 @@ separator_style = { fg = "#3a3a3a" }
 
 [help]
 on      = { fg = "#00baaa" }
-run     = { fg = "#3ba6f5" }
+run     = { fg = "#cecece" }
 desc    = { fg = "#808080" }
 hovered = { bg = "#222222", bold = true }
 footer  = { fg = "#cecece", bg = "#222222" }
 
 [notify]
-title_info  = { fg = "#3ba6f5" }
+title_info  = { fg = "#cecece" }
 title_warn  = { fg = "#e48233" }
 title_error = { fg = "#ed756e" }
 
 [pick]
-border   = { fg = "#3ba6f5" }
+border   = { fg = "#2e2e2e" }
 active   = { fg = "#eeeeee" }
 inactive = { fg = "#808080" }
 
 [input]
-border   = { fg = "#3ba6f5" }
+border   = { fg = "#2e2e2e" }
 value    = { fg = "#cecece" }
 selected = { reversed = true }
 
 [confirm]
-border  = { fg = "#3ba6f5" }
-title   = { fg = "#3ba6f5" }
+border  = { fg = "#2e2e2e" }
+title   = { fg = "#cecece" }
 btn_yes = { reversed = true }
 
 [cmp]
-border = { fg = "#3ba6f5" }
+border = { fg = "#2e2e2e" }
 active = { fg = "#eeeeee" }
 
 [tasks]
-border  = { fg = "#3ba6f5" }
+border  = { fg = "#2e2e2e" }
 hovered = { fg = "#eeeeee", bold = true }
 
 [spot]
-border   = { fg = "#3ba6f5" }
-title    = { fg = "#3ba6f5" }
-tbl_cell = { fg = "#3ba6f5", reversed = true }
+border   = { fg = "#2e2e2e" }
+title    = { fg = "#cecece" }
+tbl_cell = { fg = "#cecece", reversed = true }
 tbl_col  = { bold = true }
 
 [filetype]
@@ -112,5 +112,5 @@ rules = [
 	{ url = "*", is = "exec", fg = "#5bb661" },
 	{ url = "*", is = "dummy", bg = "#ed756e" },
 	{ url = "*/", is = "dummy", bg = "#ed756e" },
-	{ url = "*/", fg = "#3ba6f5" },
+	{ url = "*/", fg = "#808080" },
 ]
